@@ -1,9 +1,8 @@
-# Medical Insurance Cost Prediction using Machine Learning
+# Medical Insurance Cost Prediction 🏥
 
 ## 📝 Project Overview
 This repository contains a data science project aimed at predicting individual medical insurance costs. By leveraging personal health attributes, the project builds a predictive model to estimate insurance charges, providing insights into the key drivers of healthcare expenses.
 
----
 
 ## 🚀 Key Features
 
@@ -18,7 +17,6 @@ This repository contains a data science project aimed at predicting individual m
     * **Mean Absolute Error (MAE):** 2469.76.
 * **Model Deployment:** The final trained model is serialized into a `.pkl` file using `Pickle` for seamless integration into production environments.
 
----
 
 ## 🛠 Tech Stack
 * **Language:** Python
@@ -27,14 +25,12 @@ This repository contains a data science project aimed at predicting individual m
     * Machine Learning: `Scikit-learn`, `XGBoost`
     * Model Persistence: `Pickle`
 
----
 
 ## 📂 Project Structure
 * `medical.ipynb`: Jupyter Notebook containing the full end-to-step-pipeline.
 * `dataset_.csv`: The dataset used for training and testing.
 * `medical_insurance_model.pkl`: The saved model for future predictions.
 
----
 
 ## 📊 Results Summary
 The model successfully identifies that factors such as smoking status and BMI are significant predictors of insurance costs. 
@@ -45,7 +41,6 @@ The model successfully identifies that factors such as smoking status and BMI ar
 | **R2 Score** | **90.32%** |
 | **MAE** | **2469.76** |
 
----
 
 ## ⚙️ How to Use
 1. Clone the repository.
